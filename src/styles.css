@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.search__input {
+  width: calc(100% - 40px);
+  height: 20px;
+  font-size: 16px;
+  padding: 5px 20px;
+}
+
+.items {
+  list-style-type: none;
+  padding: 0 0 0 10px;
+}
+
+.items li {
+  border-bottom: 1px solid #efefef;
+}
