@@ -14,7 +14,7 @@ Every time the search term is changed, Items is rendered again.
 
 
 ## Testing
-I used Jest/Enzyme for basic smoke tests. Unfortunately, I wasn't able to get Enzyme working with codesandbox.io, which i used for the demo.
+I used Jest + Enzyme for basic smoke tests.
 
 
 ## Todo
