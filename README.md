@@ -2,7 +2,7 @@
 Searches a list of countries from [https://restcountries.eu/](https://restcountries.eu/).
 
 ## Demo
-Live Demo [here](https://codesandbox.io/s/y3kn65nv5z)
+Live Demo [here](https://codesandbox.io/s/github/d0coat01/simple-search/tree/master/)
 
 This was my first time using codesandbox and it was quite enjoyable.
 
