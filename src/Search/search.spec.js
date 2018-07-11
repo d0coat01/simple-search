@@ -5,8 +5,7 @@ import Search from './search';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-it('renders search text input', () => {
+it('Renders Search.', () => {
   const wrapper = shallow(<Search />);
-  const searchInput = <input className="search__input" />
-  expect(wrapper.contains(searchInput)).toEqual(true);
+  expect(wrapper.find('.search__input').length).toEqual(1);
 });

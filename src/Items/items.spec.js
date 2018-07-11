@@ -5,7 +5,7 @@ import Items from './items';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-it('items list if getting rendered', () => {
+it('Renders Items.', () => {
   const wrapper = shallow(<Items term=""/>);
   const items = <ul className="items"></ul>
   expect(wrapper.contains(items)).toEqual(true);
