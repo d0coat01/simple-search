@@ -23,12 +23,12 @@ class Items extends React.Component {
   }
   render() {
     const term = this.props.term || "";
-    const items = this.state.items.map((item, key) => {
+    const items = this.state.items.map((item, id) => {
       const name = typeof item.name === "string" ? item.name : "";
       const match = term.length < 1 || name.toLowerCase().search(term) !== -1;
       if (name.length < 1 || !match) return null;
       return (
-        <Item key={key} name={name} />
+        <Item id={id} name={name} />
       );
     });
     return (

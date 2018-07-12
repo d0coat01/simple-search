@@ -6,7 +6,7 @@ import Item from './item';
 Enzyme.configure({ adapter: new Adapter() });
 
 it('Renders Item.', () => {
-  const wrapper = shallow(<Item key="1" name="Hello!" />);
+  const wrapper = shallow(<Item id="1" name="Hello!" />);
   const item = <li key="1">Hello!</li>
   expect(wrapper.contains(item)).toEqual(true);
 });

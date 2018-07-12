@@ -1,10 +1,10 @@
 import React from "react";
 
 function Item(props) {
-  const key = props.key || null;
+  const id = props.id;
   const name = props.name || "";
   return (
-    <li key={key}>{name}</li>
+    <li key={id}>{name}</li>
   )
 }
 
