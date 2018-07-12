@@ -1,4 +1,6 @@
 import React from "react";
+import Item from "./item";
+
 
 class Items extends React.Component {
   constructor(props) {
@@ -26,9 +28,7 @@ class Items extends React.Component {
       const match = term.length < 1 || name.toLowerCase().search(term) !== -1;
       if (name.length < 1 || !match) return null;
       return (
-        <li key={id}>
-          {name}
-        </li>
+        <Item key={id} name={name} />
       );
     });
     return (
